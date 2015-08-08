@@ -23,4 +23,10 @@ target.path =  $$PWD/bin/
 INSTALLS +=    target
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    cplayer.cpp \
+    cmixer.cpp
+
+HEADERS += \
+    cplayer.h \
+    cmixer.h
