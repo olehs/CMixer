@@ -3,10 +3,14 @@
 *.slo
 *.lo
 *.o
+*.obj
 *.a
 *.la
 *.lai
 *.dylib
+*.pdb
+*.ilk
+*.exe
 
 # Qt-es
 
@@ -30,3 +34,7 @@ Makefile*
 #QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+
+/bin
+/debug
+/release
